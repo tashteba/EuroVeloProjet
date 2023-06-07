@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "id":1,
+            "attributes": {
+                "name":"Antoine",
+                "date":"2023-05-09T22:02:00.000Z",
+                "rating":5,
+                "localisation":"France,Paris",
+                "commentObject":"qqsf,kqs,d",
+                "commentContent":"s,lvnlksm,clsdm;f",
+                "createdAt":"2023-05-24T12:21:09.893Z",
+                "updatedAt":"2023-05-24T12:21:12.773Z",
+                "publishedAt":"2023-05-24T12:21:12.759Z"
+                }},
+        {
+            "id":2,
+            "attributes": {
+                "name":"Sara",
+                "date":"2023-05-21T22:05:00.000Z",
+                "rating":4,
+                "localisation":"Lille,France",
+                "commentObject":"qfjdsbnlkjsdnfdkslq",
+                "commentContent":"vsniofngeriskn,mvse",
+                "createdAt":"2023-05-24T13:48:35.165Z",
+                "updatedAt":"2023-05-24T13:48:41.201Z",
+                "publishedAt":"2023-05-24T13:48:41.189Z"
+                }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page":1,
+            "pageSize":25,
+            "pageCount":1,
+            "total":2
+        }
+    }
+}

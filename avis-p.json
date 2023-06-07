@@ -1,0 +1,38 @@
+[
+    {
+        "avix": "test"
+    },
+
+    {
+        "name": "Michel",
+        "date": "22/05/2023 - 10:49",
+        "rating": 4.5,
+        "localisation": "Gravelines / Dunkerque",
+        "notation": [5, 4, 5, 4],
+        "commentObject": "Lorem ipsum",
+        "commentContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis dis parturient. Facilisis magna etiam tempor orci eu lobortis elementum.",
+        "responses": 0
+    },
+
+    {
+        "name": "Jean",
+        "date": "17/05/2023 - 14:13",
+        "rating": 4,
+        "localisation": "Le Touquet / Boulogne-sur-Mer",
+        "notation": [5, 4, 3, 4],
+        "commentObject": "Lorem ipsum",
+        "commentContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis dis parturient. Facilisis magna etiam tempor orci eu lobortis elementum.",
+        "responses": 0
+    },
+
+    {
+        "name": "Richard",
+        "date": "8/11/2022 - 08:52",
+        "rating": 3.5,
+        "localisation": "Calais / Gravelines",
+        "notation": [5, 3, 3, 3],
+        "commentObject": "Lorem ipsum",
+        "commentContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida cum sociis natoque penatibus et magnis dis parturient. Facilisis magna etiam tempor orci eu lobortis elementum.",
+        "responses": 0
+    }
+]

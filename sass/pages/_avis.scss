@@ -1,0 +1,156 @@
+.main-ga {
+    font-family: 'Poppins', sans-serif;
+}
+
+.giveavis-title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.avisform {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 6%;
+    border: 4px solid gray;
+    border-radius: 16px;
+    padding: 3%;
+    background-color: beige;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#ga-indication {
+    color: rgb(104, 104, 104);
+}
+
+#name {
+    width: 100%;
+    border: 0px solid;
+    padding: 1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#name:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#date {
+    width: 100%;
+    border: 0px solid;
+    padding: 1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#date:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#localisation {
+    width: 100%;
+    border: 0px solid;
+    padding: .6%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#localisation:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#notation1 {
+    border: 0px solid;
+    padding: .1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#notation1:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#notation2 {
+    border: 0px solid;
+    padding: .1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#notation2:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#notation3 {
+    border: 0px solid;
+    padding: .1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#notation3:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#notation4 {
+    border: 0px solid;
+    padding: .1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#notation4:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#cobject {
+    border: 0px solid;
+    padding: 1%;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#cobject:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+.ga-comment-content-block {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    width: 100%;
+    border: 0px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: .1s;
+}
+
+#content:hover {
+    box-shadow: 4px 4px 1px gray;
+}
+
+#ga-submit {
+    width: auto;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid rgb(170, 255, 213);
+    border-radius: 7px;
+    background-color: rgb(73, 255, 164);
+    transition: .2s;
+}
+
+#ga-submit:hover {
+    border: 2px solid rgb(73, 255, 164);
+    background-color: rgb(170, 255, 213);
+}

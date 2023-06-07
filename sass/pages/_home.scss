@@ -1,0 +1,651 @@
+.body-home {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-bg {
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
+.containerSlider {
+    height: 100%;
+    margin: auto;
+    width: 70%;
+    // margin-left: 20%;
+   
+}
+.contenuContainer {
+    color: aliceblue;
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.containerText {
+    
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: rgb(250, 250, 250);
+        width: 35%;
+        margin-left: 18%;
+        gap: 20px;
+        letter-spacing: 3px;
+    
+    }
+    .savoirPlus{
+        width: auto;
+        height: 40px;    
+        border-radius: 7px;
+        background: none;
+        color: white;
+        font-size: larger;
+        margin-left: 10px;    
+    }
+    .savoirPlus:hover{
+        background-color: #4F29F0;
+    }
+
+#slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#slide{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+#precedent, #suivant {
+    position: absolute;
+    font-size: 100px;
+    background-color:rgba(0, 0, 0, 0.762);
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease ;
+    top: 50%;
+
+}
+#precedent {
+    // display: none;
+    left: 0;
+}
+#suivant {
+    // display: none;
+    right: 0;
+}
+#slider:hover #precedent,#slider:hover #suivant {
+    opacity: 1;
+}
+
+.containerButtons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.btn {
+    --light: #fff;
+    --dark: #414856;
+    --border: #C3C8DE;
+    --background: #4F29F0;
+    width: auto;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background: none;
+    padding: 0 30px;
+    outline: none;
+    box-shadow: 0 10px 30px rgba(#414856, 0.1);
+}
+
+// partie avis ------------------------------------------------------------------------------
+// page home ------------------------------------------------------
+
+.avis-info {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.avis-zone {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+}
+
+.avis-block-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.avis-block1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block1:hover {
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
+}
+
+.notations {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.avis-block2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block2:hover {
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
+}
+
+.avis-block3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 25%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.avis-block3:hover {
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
+}
+
+.avis-notations-block {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.avis-rating {
+    color: rgb(119, 101, 0);
+}
+
+.avis-comment-content {
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 6%;
+    overflow: hidden;
+}
+
+.avis-infos-container {
+    padding: 5%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.avis-readmore {
+    color: rgb(106, 106, 151);
+    text-decoration: none;
+    border: 0px solid;
+    transition: .1s ease-in-out;
+}
+
+.avis-readmore:hover {
+    font-weight: bolder;
+    padding: 1%;
+    border-bottom: 3px solid rgb(106, 106, 151);
+}
+
+.avis-block-date {
+    margin-top: 2%;
+}
+
+.give-avis {
+    width: 16%;
+    align-self: center;
+    margin-top: 0.5%;
+    border: 4px solid rgb(184, 247, 205);
+    border-radius: 5px;
+    background-color: rgb(100, 255, 152);
+    padding: 0.5%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    transition: .1s;
+}
+
+.give-avis:hover {
+    border: 4px solid rgb(100, 255, 152);
+    background-color: rgb(184, 247, 205);
+    transform: scale(1.05);
+}
+
+.ac {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .give-avis {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .avis-block-container {
+        flex-direction: column;
+    }
+    
+    .avis-block1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .avis-block2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .avis-block3 {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+// page avis list ------------------------------------------------------
+
+.avis-zone-list {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10%;
+}
+
+.avis-block-container-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.avis-block1-list {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.avis-block2-list {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.avis-block3-list {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+    box-shadow: 9px 9px 0px rgb(175, 175, 175);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.avis-notation-lists-block-list {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.avis-rating-list {
+    color: rgb(119, 101, 0);
+}
+
+.avis-comment-content-list {
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    overflow: hidden;
+}
+
+.avis-infos-container-list {
+    padding: 5%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.avis-block-date-list {
+    margin-top: 2%;
+}
+
+.avis-title-list {
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+
+    .avis-comment-content-list {
+        margin-bottom: 25%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .avis-block1-list {
+        font-size: 12px;
+    }
+    
+
+}
+
+.btnGris:hover {
+    background-color: #414856;
+    color: white;
+}
+.btnBleu {
+    background-color: #4F29F0;
+    color: #C3C8DE;
+}
+
+.containerExtension {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3rem;
+    padding:5% 7%;
+}
+.bodyForm {
+    align-items: center;
+    // background-color: #000;
+    display: flex;
+    justify-content: center;
+    // height: 45vh;
+  }
+
+#form {
+    background-color: #15172b;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    // border-radius: 20px;
+    box-sizing: border-box;
+    height: 550px;
+    padding: 20px;
+    width: 80%;
+    text-align: center ;
+  }
+  
+  .titleForm {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 2%;
+  }
+  
+  .ic2 {
+    margin-top: 2%;
+  }
+  .ic3 {
+    margin-top: 2%;
+  }
+  .ic4 {
+    margin-top: 2%;
+  }
+  .ic5 {
+    margin-top: 2%;
+  }
+  
+  .input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 5%;
+    // outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+
+// Partie About --------------------------------------------------------------------------------------------
+
+.about-home{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 14.7%;
+    margin-bottom: 10%;
+    
+}
+.titre-about{
+    margin-bottom: 4vh;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+.text-about{
+    line-height: 200%;
+}
+@media only screen and (max-width: 1200px)  {
+    .text-about{
+        line-height: 130%;
+    }
+    }
+
+// Respnsive 
+
+@media only screen and (max-width: 1200px)  {
+    .containerText{
+        top:20%;
+        font-size:auto;
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .containerText{
+        display: none;
+    }
+    .containerButtons {
+        display: grid;
+    }
+
+}
+
+
+
+// Partie Description/Carte
+.descriptionev5{
+    color: rgb(72, 72, 72);
+    text-align: justify;
+}
+.titleev5{
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 1.35em;
+    
+}
+.description_carte{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}  
+
+.mapev5{
+    border: 0;
+    width: 80%;
+    height: 500px;
+    padding-top: 150px;
+}
+@media only screen and (max-width: 1100px)  {
+    .descriptionev5{
+        text-align: justify;
+    }
+    .titleev5{
+        text-align: justify;
+    }
+
+}
+
+// .maphome{
+//     position:relative;
+//     width: 100%;
+//     height: 400px;
+//     padding: 5%;
+//     margin: auto;
+
+//     #map1{
+//         height: 400px;
+//         width: 80%;
+        
+
+//     }
+    
+// }
+#map1{
+          height: 400px;
+          width: 80%;
+          margin: auto;
+          padding: auto;
+
+}
+
+@media only screen and (max-width: 768px)  {
+    #map1    {
+        height: 250px;
+    }
+    
+    }
+

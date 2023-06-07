@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-sp {
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerSavoir {
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+}
+.titleSavoir {
+    color: red;
+}
+#more {display: none;}
+
+.btnSavoir {
+    --light: #fff;
+    --dark: #414856;
+    --border: #C3C8DE;
+    --background: #4F29F0;
+    width: auto;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+    background:#4F29F0;
+    padding: 0 30px;
+    outline: none;
+    box-shadow: 0 10px 30px rgba(#414856, 0.1);
+    
+
+}

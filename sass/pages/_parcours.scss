@@ -1,0 +1,23 @@
+.body-parcours {
+    font-family: 'Poppins', sans-serif;
+}
+
+.enTravaux{
+    font-size: 1.5em;
+    position: relative;
+    animation: clignotement 1s infinite;
+}
+@keyframes clignotement{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.photo-travaux{
+    width: 500px;
+    align-self: center;
+}
+.taf{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

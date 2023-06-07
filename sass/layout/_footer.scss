@@ -1,0 +1,268 @@
+.logo-footer{
+    width: 57px;
+}
+
+.part1-footer{
+    height: 250px;
+    background-color: rgba(2, 0, 0, 0.056);
+}
+
+.footer1-haut{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+
+.footer1-droite{
+    font-size: 1.25em;
+    align-self: center;
+}
+.titre-footer{
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+.footer1-bas{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.footer1-basgauche{
+    width: 58%;
+}
+.footer1-basdroite{
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+}
+.footer1-button1{
+    width: 150px;
+    height: 40px;
+    margin-right: 5%;
+    // margin-left: 8%;
+    color: rgb(0, 81, 255);
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.3s;
+}
+.footer1-button1:hover{
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.footer1-button2{
+    width: 200px;
+    height: 40px;
+    color: white ;
+    background-color: rgb(0, 81, 255);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgb(94, 113, 152);
+    transition: 0.3s;
+    
+}
+.footer1-button2:hover{
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+// FOOTER2------------------------------------------------------------------------
+.part-footer2{
+    height: 200px;
+}
+.home-footer2{
+    margin-bottom: 2%;
+}
+.footer2-haut{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2vh;
+}
+.espace-pro{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.liste-espace{
+    list-style-type: none;
+    margin-top: 1vh;
+}
+.element-espace{
+    line-height: 30px;
+}
+.element-espace::before{
+    content: "\2192";
+    margin-right: 5px;
+}
+.accueil-velo{
+    width: 55px;
+    margin-right: 5vh;
+}
+.footer2-bas{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3vh;
+    display: flex;
+}
+.footer2-basgauche{
+    display: flex   ;
+    flex-direction: row;
+    width: 58%;
+    align-items: center;
+}
+.footer2-text2{
+   line-height: 20px; 
+}
+.marque-velo{
+margin-bottom: 13px;
+}
+.footer2-button3{
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    margin-right: 5%;
+    // margin-left: 8%;
+    color: rgb(0, 81, 255);
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.3s;
+}
+.footer2-button3:hover{
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.footer2-button4{
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    color: white ;
+    background-color: rgb(0, 81, 255);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgb(94, 113, 152);
+    transition: 0.3s;
+    
+}
+.footer2-button4:hover{
+    box-shadow: none;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.footer2-basdroite{
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+}
+// footer3---------------------------------------------------------------------------------------------
+.home-footer3{
+    height: 70px;
+    background-color: rgb(35, 35, 35);
+}
+.footer3-basgauche{
+    // margin-left: 15%;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    padding-top: 30px;
+    font-size: 0.75em;
+    column-gap: 10px;
+    font-weight: bold;
+
+}
+.part3-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer3-droite{
+    display: flex;
+    font-size: 0.75em;
+    color: white;
+    font-weight: bold;
+}
+.footer-rea{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    list-style-type: none;
+    padding-top: 30px;
+}
+.element-rea::before{
+    content: "\2053" ;
+    margin-right: 3px;
+}
+@media only screen and (max-width: 1200px)  {
+    .part3-footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo-footer{
+        display: none;
+    }
+    .footer1-button1{
+        display: none;
+    }
+    .footer1-button2{
+        display: none;
+    }
+    .footer1-basgauche{
+        display: none;
+    }
+    .footer1-bas{
+        display: flex;
+        flex-direction: column;
+    }
+    .part1-footer{
+        margin-bottom: 2%;
+        height: auto;
+    }
+    .footer2-bas{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer2-basgauche{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .accueil-velo{
+        margin-bottom: 14%;
+        margin-top: 14%;
+    }
+    .marque-velo{
+        font-size: 0.85em;
+    }
+    .espace-pro{
+        font-size: 0.85em;
+    }
+    .liste-espace{
+        font-size: 0.85em;
+    }
+    .footer2-text2{
+        font-size: 0.85em;
+        text-align: justify;
+        margin-bottom: 2%;
+    }
+    .footer2-basdroite{
+       width: fit-content;
+       display: flex;
+    }
+    .footer2-button3{
+        margin-bottom: 5%;
+    }
+    .footer3-basgauche{
+        margin-left: 5%;
+    }
+    .footer3-droite{
+        display: none;
+    }
+}
+  
